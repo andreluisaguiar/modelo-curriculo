@@ -5,13 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Currículo - André Luis Aguiar</title>
     <link rel="stylesheet" href="src/style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
 </head>
 <body>
        <div class="container">
         <header>
-            <h1>André Luis Aguiar</h1>
-            <p>📞 (98) 97029-5331 | 📧 andreluisaguiar2000@gmail.com</p>
-            <p>🔗 <a href="https://www.linkedin.com/in/andre-luis-aguiar" target="_blank">LinkedIn</a></p>
+            <h1 class="nome">André Luis Aguiar</h1>
+            <div class="contato">
+                <p>📞 (98) 97029-5331</p>
+                <p><i class="fas fa-envelope"></i> <a class="link" href="mailto:andreluisaguiar2000@gmail.com">andreluisaguiar2000@gmail.com</a></p>
+                <p><i class="fab fa-linkedin"></i> <a class="link" href="https://www.linkedin.com/in/andre-luis-aguiar" rel="noopener noreferrer" target="_blank">LinkedIn</a></p>
+                <p><i class="fab fa-github"></i> <a class="link" href="https://github.com/andreluisaguiar" rel="noopener noreferrer" target="_blank">GitHub</a></p>
+                <p><i class="fas fa-address-book"></i> <a class="link" href="https://andreluisaguiar.github.io/Portifolio-Andre/" rel="noopener noreferrer" target="_blank">Portifólio</a></p>
+            </div>
         </header>
         <section>
             <h2>Resumo Profissional</h2>
@@ -23,7 +30,13 @@
                 <li>
                     <strong>Graduação em Ciência e Tecnologia</strong><br>
                     Universidade Federal do Maranhão<br>
-                    Previsão de Conclusão: Dezembro/2025
+                    <div class="periodo">Previsão de Conclusão: Agosto/2025</div>
+                </li>
+                <li>
+                    <strong>Formação em Programação Back-End</strong><br>
+                    Programa Trilhas - Inova Maranhão (FAPEMA/SECTI)<br>
+                    <div class="periodo">Período: Fevereiro/2025 - Julho/2025</div>
+                    <p>Trilha focada no desenvolvimento de sistemas robustos e eficientes com abordagem em JavaScript, Node.js, Express, MongoDB, modelagem de dados e APIs RESTful. Carga horária de 400 horas.</p>
                 </li>
             </ul>
         </section>
@@ -73,9 +86,10 @@
         <section>
             <h2>Habilidades Técnicas</h2>
             <div class="skills">
-                <span>PHP (Laravel)</span>
-                <span>Python</span>
+                <span>PHP</span>
+                <span>Laravel</span>
                 <span>JavaScript</span>
+                <span>Node.js</span>
                 <span>Bootstrap</span>
                 <span>PostgreSQL</span>
                 <span>MariaDB</span>
